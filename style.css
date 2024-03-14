@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 98vw;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-family: "Poppins", sans-serif;    
+}
+section{
+    width: 40%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    background-color: black;
+}
+.item1{
+    display: grid;
+    place-items: center;
+    margin: 5px;
+}
+.item1 p{
+    font-size: 1.5rem;
+}
+.item1 span{
+    font-size: 2rem;
+    margin: 35px;
+}
+.item2{
+    width: 100%;
+    height: 300px;
+    background-image: url(Prince-Louis-Rwagasore.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.item3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 70%;
+}
+.item3 h1{
+    margin: 10px 0;
+}
+.item3 p{
+    font-size: 0.8rem;
+}
+.item3 span{
+    border-top: 1px solid gray;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.item3 span a{
+    margin-left: 5px;
+    text-decoration: none;
+}
